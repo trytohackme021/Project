@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIMS Central Library - Strategic Turnaround & Analytics Suite</title>
+    <style>
+        :root {
+            --bg: #090d16;
+            --card-bg: #111827;
+            --card-border: #1f2937;
+            --primary: #2563eb;
+            --accent: #38bdf8;
+            --gold: #f59e0b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: radial-gradient(circle at top, #1e293b 0%, #090d16 100%);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 24px 60px 24px;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(37, 99, 235, 0.2);
+            color: var(--accent);
+            border: 1px solid rgba(56, 189, 248, 0.4);
+            font-size: 13px;
+            font-weight: 700;
+            padding: 6px 14px;
+            border-radius: 999px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        h1 {
+            font-size: 42px;
+            font-weight: 900;
+            margin: 0 0 16px 0;
+            letter-spacing: -0.5px;
+            background: linear-gradient(135deg, #ffffff 40%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p.subtitle {
+            font-size: 18px;
+            color: var(--text-muted);
+            max-width: 760px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 48px;
+        }
+        .stat-card {
+            background: rgba(17, 24, 39, 0.7);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            backdrop-filter: blur(8px);
+        }
+        .stat-value {
+            font-size: 26px;
+            font-weight: 800;
+            color: var(--gold);
+            margin-bottom: 4px;
+        }
+        .stat-label {
+            font-size: 13px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .portal-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 28px;
+            margin-bottom: 56px;
+        }
+        .portal-card {
+            background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 32px 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        .portal-card:hover {
+            transform: translateY(-6px);
+            border-color: var(--accent);
+            box-shadow: 0 20px 40px rgba(37, 99, 235, 0.25);
+        }
+        .card-icon {
+            font-size: 38px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        .card-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #ffffff;
+            margin: 0 0 12px 0;
+        }
+        .card-desc {
+            font-size: 15px;
+            color: var(--text-muted);
+            line-height: 1.6;
+            margin-bottom: 24px;
+            flex-grow: 1;
+        }
+        .btn-launch {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--primary);
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 700;
+            padding: 12px 24px;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+        .btn-launch:hover {
+            background: #1d4ed8;
+            box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4);
+        }
+
+        .secondary-section {
+            background: rgba(17, 24, 39, 0.6);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 32px;
+        }
+        .secondary-section h3 {
+            margin: 0 0 16px 0;
+            color: var(--accent);
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+        }
+        .doc-link {
+            display: block;
+            background: #1e293b;
+            border: 1px solid #334155;
+            padding: 14px 18px;
+            border-radius: 8px;
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            transition: background 0.2s, color 0.2s;
+        }
+        .doc-link:hover {
+            background: #2563eb;
+            color: #ffffff;
+        }
+
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 13px;
+            color: #64748b;
+            border-top: 1px solid #1e293b;
+            padding-top: 24px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <span class="badge">RIMS Strategic Advisory 2026</span>
+        <h1>Central Library Turnaround Portal</h1>
+        <p class="subtitle">Evidence-based usage analytics, 30% budget rationalization, and student engagement campaign for Rajasthan Institute of Management &amp; Sciences.</p>
+    </header>
+
+    <div class="stats-bar">
+        <div class="stat-card">
+            <div class="stat-value">₹12.60 Lakh</div>
+            <div class="stat-label">Optimized Budget (-30%)</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">3,500</div>
+            <div class="stat-label">Student Population</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">750+ Visits</div>
+            <div class="stat-label">Turnaround Target</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">8:30 PM</div>
+            <div class="stat-label">New Evening Closing Time</div>
+        </div>
+    </div>
+
+    <div class="portal-grid">
+        <!-- Card 1: Gamma Deck -->
+        <div class="portal-card">
+            <div>
+                <span class="card-icon">📑</span>
+                <h2 class="card-title">1. Executive Gamma Deck</h2>
+                <p class="card-desc">Interactive 10-slide executive presentation designed for Principal Prof. Arvind Sharma. Includes slide-by-slide speaker notes, budget breakdown, and keyboard navigation.</p>
+            </div>
+            <a href="deck/gamma_presentation_deck.html" class="btn-launch">Launch Presentation Deck ➔</a>
+        </div>
+
+        <!-- Card 2: Campaign Pack -->
+        <div class="portal-card">
+            <div>
+                <span class="card-icon">🎨</span>
+                <h2 class="card-title">2. Library Campaign Pack</h2>
+                <p class="card-desc">High-contrast marketing collateral addressing student pain points: 1080×1080 Instagram post ('No More 5 PM Curfew') and A3 noticeboard poster ('Tired of Outdated Textbooks?').</p>
+            </div>
+            <a href="campaign_pack/campaign_preview.html" class="btn-launch">Open Campaign Pack ➔</a>
+        </div>
+
+        <!-- Card 3: Julius Analytics -->
+        <div class="portal-card">
+            <div>
+                <span class="card-icon">📊</span>
+                <h2 class="card-title">3. Julius Usage Analytics</h2>
+                <p class="card-desc">Executive analytical dashboard featuring 5 publication-grade charts: departmental disparity, pre-2015 currency cliff, ₹7.2L journal leakage, hourly visits, and cohort satisfaction decay.</p>
+            </div>
+            <a href="analysis/analysis_dashboard.html" class="btn-launch">Explore Analytics Dashboard ➔</a>
+        </div>
+    </div>
+
+    <div class="secondary-section">
+        <h3>Project Documentation &amp; Data Artifacts</h3>
+        <div class="links-grid">
+            <a href="report/collection_decision_note.md" class="doc-link" target="_blank">📄 Collection Decision Note</a>
+            <a href="data/rims_library_data.csv" class="doc-link" download>💾 Audit Dataset (300 Rows CSV)</a>
+            <a href="data/data_dictionary.md" class="doc-link" target="_blank">📖 Data Dictionary</a>
+            <a href="prompts/prompt_log.md" class="doc-link" target="_blank">🔍 Prompt Engineering Log</a>
+        </div>
+    </div>
+
+    <footer>
+        Rajasthan Institute of Management &amp; Sciences (RIMS) • Library Steering Committee &bull; Built for Vercel Deployment
+    </footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIMS Central Library - Analytics Executive Dashboard</title>
+    <style>
+        :root {
+            --primary: #1a365d;
+            --accent: #2b6cb0;
+            --danger: #c53030;
+            --success: #276749;
+            --warning: #b7791f;
+            --bg: #f7fafc;
+            --card-bg: #ffffff;
+            --text: #2d3748;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 24px;
+        }
+        .header {
+            background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+            color: white;
+            padding: 28px 36px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 24px;
+        }
+        .header h1 { margin: 0 0 8px 0; font-size: 26px; }
+        .header p { margin: 0; opacity: 0.9; font-size: 15px; }
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .kpi-card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid var(--accent);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+        }
+        .kpi-card.alert { border-left-color: var(--danger); }
+        .kpi-card.success { border-left-color: var(--success); }
+        .kpi-card.warning { border-left-color: var(--warning); }
+        .kpi-title { font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; color: #718096; margin-bottom: 6px; }
+        .kpi-value { font-size: 26px; font-weight: 700; color: #1a202c; }
+        .kpi-sub { font-size: 12px; color: #718096; margin-top: 4px; }
+        
+        .charts-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 28px;
+        }
+        .chart-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .chart-card h2 {
+            margin-top: 0;
+            color: var(--primary);
+            font-size: 20px;
+            border-bottom: 2px solid #edf2f7;
+            padding-bottom: 12px;
+        }
+        .chart-img-wrap {
+            text-align: center;
+            margin: 16px 0;
+            background: #fafafa;
+            border-radius: 8px;
+            padding: 12px;
+            border: 1px solid #e2e8f0;
+        }
+        .chart-img-wrap img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+        .insight-box {
+            background-color: #ebf8ff;
+            border-left: 4px solid var(--accent);
+            padding: 14px 18px;
+            border-radius: 0 8px 8px 0;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .insight-box strong { color: var(--primary); }
+        .top-nav {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .top-nav a {
+            color: #2b6cb0;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 6px;
+            background: #ffffff;
+            border: 1px solid #cbd5e0;
+            transition: all 0.2s;
+        }
+        .top-nav a:hover {
+            background: #2b6cb0;
+            color: #ffffff;
+        }
+        .nav-sep { color: #a0aec0; }
+    </style>
+</head>
+<body>
+
+<nav class="top-nav">
+    <a href="../index.html">← Portal Home</a>
+    <span class="nav-sep">•</span>
+    <a href="../deck/gamma_presentation_deck.html">📑 Presentation Deck</a>
+    <a href="../campaign_pack/campaign_preview.html">🎨 Campaign Pack</a>
+</nav>
+
+<div class="header">
+    <h1>Rajasthan Institute of Management & Sciences (RIMS)</h1>
+    <p>Central Library Usage Analytics & Performance Dashboard | Julius-Style Executive Analytics</p>
+</div>
+
+<div class="kpi-grid">
+    <div class="kpi-card alert">
+        <div class="kpi-title">Current Daily Footfall</div>
+        <div class="kpi-value">~300 Visits</div>
+        <div class="kpi-sub">Target: 800+ (out of 3,500 students)</div>
+    </div>
+    <div class="kpi-card alert">
+        <div class="kpi-title">Current Annual Budget</div>
+        <div class="kpi-value">₹18.00 Lakh</div>
+        <div class="kpi-sub">Threatened with 30% cut (₹5.40L cut)</div>
+    </div>
+    <div class="kpi-card warning">
+        <div class="kpi-title">Dormant Journal Rate</div>
+        <div class="kpi-value">60.6%</div>
+        <div class="kpi-sub">40 of 66 sampled journals &lt;10 downloads/yr</div>
+    </div>
+    <div class="kpi-card alert">
+        <div class="kpi-title">Outdated Book Share</div>
+        <div class="kpi-value">44.8%</div>
+        <div class="kpi-sub">Published pre-2015; avg. &lt;2 checkouts/yr</div>
+    </div>
+    <div class="kpi-card success">
+        <div class="kpi-title">Optimized Budget Ceiling</div>
+        <div class="kpi-value">₹12.60 Lakh</div>
+        <div class="kpi-sub">Saves 30% while increasing student utility 2.5x</div>
+    </div>
+</div>
+
+<div class="charts-container">
+    <div class="chart-card">
+        <h2>1. Departmental Engagement Disparity</h2>
+        <div class="chart-img-wrap">
+            <img src="graph_1_usage_by_department.png" alt="Usage by Department">
+        </div>
+        <div class="insight-box">
+            <strong>Key Insight:</strong> Management and Computer Science drive 68% of total volume, while Humanities and Basic Sciences remain largely detached due to zero refreshed textbooks and absent digital resources.
+        </div>
+    </div>
+
+    <div class="chart-card">
+        <h2>2. Physical Checkouts vs. Publication Year (The Currency Gap)</h2>
+        <div class="chart-img-wrap">
+            <img src="graph_2_issues_vs_publication_year.png" alt="Issues vs Publication Year">
+        </div>
+        <div class="insight-box">
+            <strong>Key Insight:</strong> Clear verification of student complaints: pre-2015 titles sit untouched (&lt;2 checkouts/year), whereas syllabus-aligned 2021–2024 editions circulate at peak velocity (30 to 60+ checkouts).
+        </div>
+    </div>
+
+    <div class="chart-card">
+        <h2>3. Resource ROI: Annual Cost vs. Annual Usage</h2>
+        <div class="chart-img-wrap">
+            <img src="graph_3_cost_vs_usage.png" alt="Cost vs Usage">
+        </div>
+        <div class="insight-box">
+            <strong>Key Insight:</strong> Subscribed journals create immense fiscal waste (averaging ₹51,400 with 60% registering &lt;10 downloads), while bundled digital databases and core physical course texts achieve 12x higher cost-efficiency.
+        </div>
+    </div>
+
+    <div class="chart-card">
+        <h2>4. Visit Distribution Across Operating Hours (09:00 - 17:00)</h2>
+        <div class="chart-img-wrap">
+            <img src="graph_4_visits_by_time_slot.png" alt="Visits by Time Slot">
+        </div>
+        <div class="insight-box">
+            <strong>Key Insight:</strong> Visits crater to 10% after 3:00 PM because students attend compulsory lectures and labs until 4:30 PM, making 5:00 PM closure counterproductive to evening study.
+        </div>
+    </div>
+
+    <div class="chart-card">
+        <h2>5. Satisfaction Score Breakdown Across Student Cohorts</h2>
+        <div class="chart-img-wrap">
+            <img src="graph_5_satisfaction_by_year.png" alt="Satisfaction by Year">
+        </div>
+        <div class="insight-box">
+            <strong>Key Insight:</strong> Satisfaction plummets from 3.65 (UG-1st Year) to 2.15 (PG-2nd Year), signaling that advanced students preparing for placements, dissertations, and research find the holdings obsolete.
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" width="1000" height="1414">
+  <defs>
+    <linearGradient id="posterBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a1128" />
+      <stop offset="40%" stop-color="#1c2541" />
+      <stop offset="100%" stop-color="#0b132b" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f6d365" />
+      <stop offset="100%" stop-color="#fda085" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#48cae4" />
+      <stop offset="100%" stop-color="#0077b6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Poster Canvas -->
+  <rect width="1000" height="1414" fill="url(#posterBg)" />
+
+  <!-- Geometric Modern Accents -->
+  <circle cx="850" cy="150" r="300" fill="#48cae4" opacity="0.08" />
+  <circle cx="150" cy="1250" r="250" fill="#fda085" opacity="0.08" />
+  <rect x="50" y="50" width="900" height="1314" fill="none" stroke="#3a506b" stroke-width="2" opacity="0.4" />
+
+  <!-- Institution Header -->
+  <g transform="translate(80, 100)">
+    <text x="0" y="24" fill="#90e0ef" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="bold" letter-spacing="4">RAJASTHAN INSTITUTE OF MANAGEMENT &amp; SCIENCES</text>
+    <text x="0" y="48" fill="#a0aec0" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" letter-spacing="1.5">CENTRAL LIBRARY &amp; INFORMATION SERVICES</text>
+  </g>
+
+  <!-- Main Headline -->
+  <g transform="translate(80, 220)">
+    <rect x="0" y="0" width="310" height="36" rx="6" fill="#e63946" />
+    <text x="155" y="24" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="900" text-anchor="middle" letter-spacing="2">SEMESTER REBOOT 2026</text>
+
+    <text x="0" y="105" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="62" font-weight="900" letter-spacing="-1">TIRED OF OUTDATED</text>
+    <text x="0" y="175" fill="url(#goldGrad)" font-family="'Segoe UI', Roboto, sans-serif" font-size="62" font-weight="900" letter-spacing="-1">LIBRARY BOOKS?</text>
+    <text x="0" y="245" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="62" font-weight="900" letter-spacing="-1">SO WERE WE.</text>
+  </g>
+
+  <!-- Subheadline -->
+  <text x="80" y="525" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="400">
+    We reviewed the data, heard your frustration, and transformed the library.
+  </text>
+
+  <!-- Data Fact Callout Box (from analysis) -->
+  <g transform="translate(80, 565)">
+    <rect width="840" height="150" rx="16" fill="#1c2541" stroke="#fda085" stroke-width="2" />
+    <circle cx="80" cy="75" r="50" fill="#fda085" fill-opacity="0.2" />
+    <text x="80" y="85" fill="#fda085" font-family="'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="bold" text-anchor="middle">45%</text>
+    
+    <text x="160" y="52" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="bold">
+      VERIFIED AUDIT FACT:
+    </text>
+    <text x="160" y="84" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="17">
+      45% of books in our stacks were published before 2015 and had 0 checkouts.
+    </text>
+    <text x="160" y="115" fill="#48cae4" font-family="'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="bold">
+      ➔ We weeded obsolete volumes and restocked 2024 syllabus editions across all 5 departments!
+    </text>
+  </g>
+
+  <!-- The 3 Major Upgrades -->
+  <g transform="translate(80, 755)">
+    <!-- Column 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="260" height="260" rx="14" fill="#1c2541" stroke="#3a506b" stroke-width="1.5" />
+      <circle cx="50" cy="50" r="26" fill="#48cae4" fill-opacity="0.2" />
+      <text x="50" y="58" fill="#48cae4" font-size="24" text-anchor="middle">📖</text>
+      <text x="25" y="115" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="bold">2024 Syllabus</text>
+      <text x="25" y="140" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="bold">Reserve Bank</text>
+      <text x="25" y="175" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" width="210">
+        Multiple copies of prescribed textbooks for MBA, B.Tech, B.Com, and Sciences.
+      </text>
+    </g>
+
+    <!-- Column 2 -->
+    <g transform="translate(290, 0)">
+      <rect width="260" height="260" rx="14" fill="#1c2541" stroke="#3a506b" stroke-width="1.5" />
+      <circle cx="50" cy="50" r="26" fill="#f59e0b" fill-opacity="0.2" />
+      <text x="50" y="58" fill="#f59e0b" font-size="24" text-anchor="middle">🌙</text>
+      <text x="25" y="115" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="bold">Open Until</text>
+      <text x="25" y="140" fill="#f59e0b" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="bold">8:30 PM Daily</text>
+      <text x="25" y="175" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="14">
+        No more timetable clash. Complete your labs and study in comfort after classes.
+      </text>
+    </g>
+
+    <!-- Column 3 -->
+    <g transform="translate(580, 0)">
+      <rect width="260" height="260" rx="14" fill="#1c2541" stroke="#3a506b" stroke-width="1.5" />
+      <circle cx="50" cy="50" r="26" fill="#10b981" fill-opacity="0.2" />
+      <text x="50" y="58" fill="#10b981" font-size="24" text-anchor="middle">💻</text>
+      <text x="25" y="115" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="bold">Co-Working &amp;</text>
+      <text x="25" y="140" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="bold">Project Commons</text>
+      <text x="25" y="175" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="14">
+        Whiteboards, high-speed Wi-Fi, and laptop power sockets at every station.
+      </text>
+    </g>
+  </g>
+
+  <!-- Big Call To Action Bar -->
+  <g transform="translate(80, 1060)">
+    <rect width="840" height="180" rx="18" fill="url(#goldGrad)" />
+    
+    <!-- CTA Left text -->
+    <text x="50" y="60" fill="#0b132b" font-family="'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900">
+      DON'T BUY EXPENSIVE TEXTBOOKS!
+    </text>
+    <text x="50" y="98" fill="#1c2541" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600">
+      Borrow the newest edition today with your RIMS Student ID.
+    </text>
+    <text x="50" y="142" fill="#0b132b" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="bold">
+      📍 Central Library Building, 1st Floor | Mon–Fri: 8:30 AM – 8:30 PM | Sat: 10 AM – 4 PM
+    </text>
+
+    <!-- QR Code visual graphic -->
+    <g transform="translate(680, 25)">
+      <rect width="130" height="130" rx="10" fill="#ffffff" />
+      <rect x="15" y="15" width="35" height="35" fill="#0b132b" />
+      <rect x="80" y="15" width="35" height="35" fill="#0b132b" />
+      <rect x="15" y="80" width="35" height="35" fill="#0b132b" />
+      <rect x="25" y="25" width="15" height="15" fill="#ffffff" />
+      <rect x="90" y="25" width="15" height="15" fill="#ffffff" />
+      <rect x="25" y="90" width="15" height="15" fill="#ffffff" />
+      <rect x="60" y="60" width="15" height="15" fill="#0b132b" />
+      <rect x="85" y="75" width="25" height="12" fill="#0b132b" />
+      <rect x="65" y="95" width="35" height="15" fill="#0b132b" />
+      <text x="65" y="125" fill="#0b132b" font-family="sans-serif" font-size="9" font-weight="bold" text-anchor="middle">SCAN CATALOG</text>
+    </g>
+  </g>
+
+  <!-- Footer Notice -->
+  <text x="500" y="1340" fill="#64748b" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" text-anchor="middle">
+    Rajasthan Institute of Management &amp; Sciences • Library Committee Advisory 2026 • library@rims.edu.in
+  </text>
+</svg>

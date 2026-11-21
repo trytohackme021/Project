@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIMS Library Campaign Pack - Visual Deliverables</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #0f172a;
+            color: #f8fafc;
+            margin: 0;
+            padding: 30px;
+        }
+        .header {
+            max-width: 1400px;
+            margin: 0 auto 30px auto;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 20px;
+        }
+        .header h1 { margin: 0 0 10px 0; color: #38bdf8; }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        @media (max-width: 900px) {
+            .grid { grid-template-columns: 1fr; }
+        }
+        .card {
+            background: #1e293b;
+            padding: 24px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+            border: 1px solid #334155;
+        }
+        .card h2 { margin-top: 0; color: #f59e0b; font-size: 20px; }
+        .card p { color: #94a3b8; font-size: 14px; line-height: 1.6; }
+        .img-wrap {
+            text-align: center;
+            background: #090d16;
+            padding: 16px;
+            border-radius: 12px;
+            margin-top: 16px;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .img-wrap object, .img-wrap img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        .badge {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            font-size: 12px;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .btn-link {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 8px 16px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .btn-link:hover {
+            background: #1d4ed8;
+        }
+        .top-nav {
+            max-width: 1400px;
+            margin: 0 auto 20px auto;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 14px;
+        }
+        .top-nav a {
+            color: #38bdf8;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 6px 12px;
+            border-radius: 6px;
+            background: rgba(30, 41, 59, 0.6);
+            border: 1px solid #334155;
+            transition: all 0.2s;
+        }
+        .top-nav a:hover {
+            background: #2563eb;
+            color: #ffffff;
+        }
+        .nav-sep { color: #475569; }
+    </style>
+</head>
+<body>
+
+<nav class="top-nav">
+    <a href="../index.html">← Portal Home</a>
+    <span class="nav-sep">•</span>
+    <a href="../deck/gamma_presentation_deck.html">📑 Presentation Deck</a>
+    <a href="../analysis/analysis_dashboard.html">📊 Analytics Dashboard</a>
+</nav>
+
+<div class="header">
+    <span class="badge">Deliverable 4: Library Campaign Pack</span>
+    <h1>Visual Campaign Deliverables: Social &amp; Print</h1>
+    <p>Targeted marketing collateral addressing the root causes identified in our usage audit (timetables &amp; outdated books).</p>
+</div>
+
+<div class="grid">
+    <div class="card">
+        <h2>1. Instagram Post (1080 × 1080 px)</h2>
+        <p><strong>Message:</strong> No More 5 PM Curfew — Evening Study Unlocked.</p>
+        <p><strong>Analysis Data Point:</strong> <em>"Visits dropped by 60% after 3 PM due to mandatory labs. Doors now open until 8:30 PM."</em></p>
+        <p><strong>Call to Action:</strong> Claim your evening study desk with high-speed Wi-Fi &amp; new 2024 Course Reserve.</p>
+        <div class="img-wrap">
+            <object type="image/svg+xml" data="instagram_post_1080x1080.svg" style="width: 100%; max-height: 520px;">
+                <img src="instagram_post_1080x1080.svg" alt="Instagram Post 1080x1080" style="width: 100%;">
+            </object>
+        </div>
+        <a href="instagram_post_1080x1080.html" class="btn-link" target="_blank">Open Full Size in New Tab ↗</a>
+    </div>
+
+    <div class="card">
+        <h2>2. Campus Poster (A3 Portrait Format)</h2>
+        <p><strong>Message:</strong> Tired of Outdated Textbooks? So Were We. Modern Books for Modern Minds.</p>
+        <p><strong>Analysis Data Point:</strong> <em>"45% of books were over 10 years old with 0 checkouts. Replaced with 2024 syllabus editions."</em></p>
+        <p><strong>Call to Action:</strong> Scan QR code to borrow 2024 semester textbooks from the 1st Floor Reserve Bank.</p>
+        <div class="img-wrap">
+            <object type="image/svg+xml" data="poster_A3.svg" style="width: 100%; max-height: 520px;">
+                <img src="poster_A3.svg" alt="Poster A3 Portrait" style="width: 100%;">
+            </object>
+        </div>
+        <a href="poster_A3.html" class="btn-link" target="_blank">Open Full Size in New Tab ↗</a>
+    </div>
+</div>
+
+</body>
+</html>

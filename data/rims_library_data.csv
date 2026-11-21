@@ -1,0 +1,301 @@
+record_id,department,resource_type,subject_category,publication_year,times_issued_last_year,downloads_last_year,annual_cost,visit_time_slot,student_year,satisfaction_score
+RIMS-001,Computer Science,e-resource,Legacy Programming (COBOL/Fortran),2018,0,24,30024,13:00-15:00,UG-3rd Year,2
+RIMS-002,Management,book,Marketing Strategy,2023,30,0,2868,09:00-11:00,PG-2nd Year,4
+RIMS-003,Computer Science,journal,Cloud Computing,2016,0,8,63453,09:00-11:00,PG-2nd Year,1
+RIMS-004,Humanities,book,Philosophy,2023,51,0,1352,09:00-11:00,UG-1st Year,4
+RIMS-005,Management,book,Supply Chain,2015,28,0,1103,11:00-13:00,UG-2nd Year,3
+RIMS-006,Computer Science,book,Data Structures,2002,3,0,1828,09:00-11:00,UG-2nd Year,1
+RIMS-007,Computer Science,journal,Web Development,2016,0,5,63565,09:00-11:00,UG-3rd Year,1
+RIMS-008,Computer Science,book,Cloud Computing,2023,32,0,2000,11:00-13:00,UG-1st Year,3
+RIMS-009,Management,e-resource,Supply Chain,2024,0,178,35700,15:00-17:00,PG-1st Year,4
+RIMS-010,Management,book,Operations,2003,1,0,776,11:00-13:00,UG-2nd Year,2
+RIMS-011,Management,book,Financial Management,2010,0,0,1944,09:00-11:00,PG-2nd Year,1
+RIMS-012,Management,journal,Supply Chain,2018,0,14,63920,09:00-11:00,UG-3rd Year,3
+RIMS-013,Computer Science,book,Cybersecurity,2017,18,0,2004,15:00-17:00,PG-1st Year,2
+RIMS-014,Basic Sciences,e-resource,Engineering Physics,2023,0,101,15665,11:00-13:00,PG-2nd Year,4
+RIMS-015,Management,book,Financial Management,2021,42,0,721,09:00-11:00,UG-2nd Year,4
+RIMS-016,Computer Science,book,Cybersecurity,2020,38,0,3134,13:00-15:00,UG-2nd Year,3
+RIMS-017,Management,book,Operations,2019,8,0,1460,09:00-11:00,PG-1st Year,3
+RIMS-018,Management,e-resource,Business Analytics,2020,0,167,40077,13:00-15:00,UG-1st Year,4
+RIMS-019,Management,journal,HR & Org Behavior,2020,0,2,57392,13:00-15:00,PG-1st Year,2
+RIMS-020,Commerce,book,Corporate Accounting,2017,24,0,1105,11:00-13:00,UG-1st Year,3
+RIMS-021,Humanities,journal,Sociology,2024,0,6,63052,11:00-13:00,UG-1st Year,3
+RIMS-022,Management,book,Business Analytics,2013,4,0,919,13:00-15:00,UG-3rd Year,2
+RIMS-023,Humanities,book,Political Science,2020,32,0,1652,09:00-11:00,PG-1st Year,3
+RIMS-024,Commerce,book,Auditing,2004,3,0,1181,13:00-15:00,UG-2nd Year,1
+RIMS-025,Computer Science,book,Cloud Computing,2019,24,0,2529,09:00-11:00,UG-1st Year,3
+RIMS-026,Management,journal,Marketing Strategy,2020,0,44,75028,09:00-11:00,UG-3rd Year,4
+RIMS-027,Basic Sciences,book,Applied Mathematics,2022,26,0,908,11:00-13:00,PG-1st Year,5
+RIMS-028,Management,book,Supply Chain,2003,2,0,772,09:00-11:00,UG-1st Year,1
+RIMS-029,Basic Sciences,journal,Statistics,2016,0,44,74189,11:00-13:00,PG-2nd Year,2
+RIMS-030,Humanities,book,Sociology,2017,12,0,2611,13:00-15:00,UG-3rd Year,4
+RIMS-031,Humanities,e-resource,Sociology,2019,0,156,25182,09:00-11:00,UG-1st Year,3
+RIMS-032,Management,book,HR & Org Behavior,2020,53,0,2569,13:00-15:00,PG-2nd Year,3
+RIMS-033,Management,book,Marketing Strategy,2006,0,0,2718,11:00-13:00,UG-1st Year,1
+RIMS-034,Management,book,Marketing Strategy,1997,0,0,578,15:00-17:00,UG-2nd Year,2
+RIMS-035,Computer Science,journal,Cloud Computing,2023,0,7,38040,11:00-13:00,PG-2nd Year,2
+RIMS-036,Basic Sciences,book,Statistics,2011,1,0,1229,11:00-13:00,UG-2nd Year,1
+RIMS-037,Management,book,Operations,2009,0,0,671,11:00-13:00,UG-3rd Year,2
+RIMS-038,Management,book,Operations,2008,1,0,897,15:00-17:00,UG-1st Year,1
+RIMS-039,Management,book,Marketing Strategy,2017,17,0,1201,15:00-17:00,UG-1st Year,2
+RIMS-040,Commerce,journal,Taxation Law,2016,0,8,30416,09:00-11:00,PG-1st Year,1
+RIMS-041,Computer Science,journal,Cybersecurity,2015,0,25,34899,11:00-13:00,UG-3rd Year,3
+RIMS-042,Management,journal,HR & Org Behavior,2018,0,13,34789,11:00-13:00,UG-1st Year,3
+RIMS-043,Management,book,HR & Org Behavior,2010,0,0,2726,11:00-13:00,UG-1st Year,2
+RIMS-044,Computer Science,book,Web Development,2005,0,0,689,11:00-13:00,UG-1st Year,2
+RIMS-045,Commerce,book,Cost Accounting,2006,0,0,2842,15:00-17:00,UG-1st Year,1
+RIMS-046,Management,book,Business Analytics,2012,6,0,1211,15:00-17:00,PG-2nd Year,1
+RIMS-047,Management,journal,Financial Management,2018,0,9,40135,13:00-15:00,UG-3rd Year,2
+RIMS-048,Computer Science,book,Cloud Computing,2021,62,0,2765,09:00-11:00,PG-2nd Year,4
+RIMS-049,Basic Sciences,journal,Environmental Chemistry,2018,0,30,39642,11:00-13:00,UG-2nd Year,2
+RIMS-050,Commerce,e-resource,Taxation Law,2023,0,94,41964,13:00-15:00,PG-1st Year,4
+RIMS-051,Computer Science,book,Cloud Computing,2014,7,0,750,09:00-11:00,PG-2nd Year,3
+RIMS-052,Computer Science,book,Cybersecurity,2007,2,0,1450,09:00-11:00,UG-3rd Year,1
+RIMS-053,Management,book,Marketing Strategy,2013,26,0,1689,11:00-13:00,UG-3rd Year,2
+RIMS-054,Commerce,book,Cost Accounting,2013,13,0,3167,13:00-15:00,UG-1st Year,1
+RIMS-055,Management,journal,Marketing Strategy,2019,0,1,72655,11:00-13:00,PG-1st Year,2
+RIMS-056,Commerce,book,Banking & Insurance,2002,1,0,1283,09:00-11:00,UG-2nd Year,2
+RIMS-057,Management,book,Supply Chain,2019,5,0,828,15:00-17:00,UG-2nd Year,3
+RIMS-058,Humanities,journal,English Literature,2015,0,2,65753,13:00-15:00,UG-3rd Year,3
+RIMS-059,Computer Science,book,AI & Machine Learning,2023,52,0,2747,09:00-11:00,PG-1st Year,3
+RIMS-060,Management,book,Financial Management,2017,21,0,597,11:00-13:00,UG-1st Year,4
+RIMS-061,Basic Sciences,e-resource,Engineering Physics,2021,0,50,14741,15:00-17:00,UG-2nd Year,4
+RIMS-062,Management,e-resource,Financial Management,2020,0,71,28353,11:00-13:00,PG-2nd Year,3
+RIMS-063,Basic Sciences,e-resource,Environmental Chemistry,2024,0,161,38632,09:00-11:00,UG-2nd Year,5
+RIMS-064,Humanities,book,Philosophy,2018,9,0,1175,09:00-11:00,UG-3rd Year,4
+RIMS-065,Basic Sciences,journal,Applied Mathematics,2017,0,31,75274,11:00-13:00,UG-1st Year,4
+RIMS-066,Computer Science,e-resource,Legacy Programming (COBOL/Fortran),2024,0,81,29485,09:00-11:00,UG-3rd Year,4
+RIMS-067,Humanities,journal,Modern History,2021,0,40,38577,11:00-13:00,PG-1st Year,4
+RIMS-068,Computer Science,book,Web Development,2003,0,0,3153,13:00-15:00,PG-1st Year,1
+RIMS-069,Humanities,e-resource,English Literature,2020,0,35,30292,11:00-13:00,UG-3rd Year,3
+RIMS-070,Commerce,journal,Cost Accounting,2021,0,44,45702,13:00-15:00,PG-1st Year,5
+RIMS-071,Humanities,book,Modern History,2019,9,0,2828,11:00-13:00,UG-1st Year,4
+RIMS-072,Computer Science,book,Data Structures,2009,0,0,1734,11:00-13:00,UG-3rd Year,1
+RIMS-073,Management,book,Business Analytics,2014,10,0,1493,09:00-11:00,UG-1st Year,2
+RIMS-074,Humanities,book,Sociology,2013,25,0,3196,09:00-11:00,UG-3rd Year,1
+RIMS-075,Commerce,book,Auditing,2006,0,0,3167,11:00-13:00,UG-1st Year,2
+RIMS-076,Management,book,Operations,2023,44,0,3181,11:00-13:00,UG-3rd Year,4
+RIMS-077,Commerce,e-resource,Auditing,2023,0,93,20341,11:00-13:00,UG-2nd Year,4
+RIMS-078,Commerce,book,Auditing,2017,23,0,2781,11:00-13:00,UG-1st Year,3
+RIMS-079,Management,e-resource,Business Analytics,2024,0,18,31914,13:00-15:00,UG-3rd Year,4
+RIMS-080,Computer Science,book,Web Development,2024,45,0,2354,09:00-11:00,UG-2nd Year,4
+RIMS-081,Computer Science,journal,Legacy Programming (COBOL/Fortran),2018,0,2,67178,11:00-13:00,UG-2nd Year,1
+RIMS-082,Basic Sciences,journal,Environmental Chemistry,2016,0,25,68092,11:00-13:00,UG-3rd Year,3
+RIMS-083,Computer Science,book,AI & Machine Learning,1997,0,0,2396,11:00-13:00,PG-1st Year,2
+RIMS-084,Management,book,Financial Management,2024,37,0,2022,09:00-11:00,UG-1st Year,4
+RIMS-085,Humanities,journal,Philosophy,2017,0,10,82501,11:00-13:00,UG-1st Year,3
+RIMS-086,Computer Science,book,Cloud Computing,2018,9,0,2571,09:00-11:00,UG-2nd Year,3
+RIMS-087,Computer Science,journal,Cybersecurity,2018,0,17,53914,11:00-13:00,UG-1st Year,2
+RIMS-088,Computer Science,journal,Web Development,2023,0,30,73496,11:00-13:00,PG-2nd Year,5
+RIMS-089,Commerce,book,Cost Accounting,2023,52,0,2694,09:00-11:00,UG-3rd Year,4
+RIMS-090,Management,book,Marketing Strategy,2022,53,0,1511,15:00-17:00,UG-3rd Year,5
+RIMS-091,Computer Science,journal,Legacy Programming (COBOL/Fortran),2019,0,43,55758,11:00-13:00,UG-3rd Year,3
+RIMS-092,Basic Sciences,book,Environmental Chemistry,2005,0,0,1825,15:00-17:00,PG-2nd Year,1
+RIMS-093,Management,book,Business Analytics,2000,0,0,1075,09:00-11:00,UG-1st Year,2
+RIMS-094,Management,journal,Financial Management,2021,0,8,54534,09:00-11:00,UG-2nd Year,2
+RIMS-095,Humanities,book,Philosophy,2021,62,0,530,13:00-15:00,UG-2nd Year,5
+RIMS-096,Management,journal,Business Analytics,2021,0,5,43569,11:00-13:00,PG-2nd Year,2
+RIMS-097,Commerce,journal,Auditing,2023,0,44,76420,09:00-11:00,UG-1st Year,4
+RIMS-098,Commerce,journal,Taxation Law,2022,0,6,55827,15:00-17:00,UG-2nd Year,1
+RIMS-099,Computer Science,journal,Data Structures,2021,0,39,84263,11:00-13:00,PG-2nd Year,3
+RIMS-100,Humanities,book,Political Science,2021,62,0,2761,13:00-15:00,PG-1st Year,5
+RIMS-101,Management,e-resource,Financial Management,2023,0,127,20893,11:00-13:00,PG-1st Year,5
+RIMS-102,Management,e-resource,Marketing Strategy,2018,0,84,36844,11:00-13:00,UG-1st Year,3
+RIMS-103,Basic Sciences,book,Statistics,2008,0,0,2176,09:00-11:00,PG-2nd Year,1
+RIMS-104,Basic Sciences,book,Applied Mathematics,2023,28,0,1883,11:00-13:00,UG-2nd Year,4
+RIMS-105,Management,book,Financial Management,2015,28,0,577,11:00-13:00,PG-1st Year,4
+RIMS-106,Commerce,journal,Taxation Law,2015,0,25,32272,09:00-11:00,UG-2nd Year,3
+RIMS-107,Management,book,Financial Management,2018,18,0,1499,11:00-13:00,PG-2nd Year,3
+RIMS-108,Computer Science,book,AI & Machine Learning,2016,28,0,1120,09:00-11:00,PG-1st Year,4
+RIMS-109,Computer Science,book,Cloud Computing,2019,22,0,1987,09:00-11:00,PG-1st Year,3
+RIMS-110,Management,journal,Operations,2018,0,3,30678,13:00-15:00,UG-1st Year,2
+RIMS-111,Management,e-resource,Supply Chain,2024,0,171,19933,11:00-13:00,UG-2nd Year,5
+RIMS-112,Humanities,e-resource,Political Science,2024,0,28,34754,15:00-17:00,PG-1st Year,4
+RIMS-113,Computer Science,book,Legacy Programming (COBOL/Fortran),2012,0,0,501,13:00-15:00,UG-3rd Year,2
+RIMS-114,Computer Science,e-resource,Web Development,2018,0,128,35736,09:00-11:00,UG-2nd Year,3
+RIMS-115,Management,book,HR & Org Behavior,2021,36,0,2587,09:00-11:00,UG-1st Year,5
+RIMS-116,Management,journal,Supply Chain,2024,0,44,74766,13:00-15:00,UG-3rd Year,4
+RIMS-117,Basic Sciences,book,Statistics,2024,42,0,1770,09:00-11:00,PG-2nd Year,5
+RIMS-118,Management,e-resource,Financial Management,2020,0,133,27981,09:00-11:00,PG-2nd Year,3
+RIMS-119,Management,e-resource,Business Analytics,2022,0,115,34046,11:00-13:00,PG-2nd Year,3
+RIMS-120,Management,book,Supply Chain,2002,0,0,1508,15:00-17:00,UG-3rd Year,1
+RIMS-121,Computer Science,journal,Cybersecurity,2019,0,8,36521,11:00-13:00,UG-3rd Year,1
+RIMS-122,Computer Science,e-resource,Legacy Programming (COBOL/Fortran),2021,0,143,27749,09:00-11:00,UG-2nd Year,5
+RIMS-123,Basic Sciences,e-resource,Statistics,2021,0,22,18098,11:00-13:00,UG-3rd Year,4
+RIMS-124,Management,book,HR & Org Behavior,2019,25,0,2832,11:00-13:00,UG-2nd Year,3
+RIMS-125,Computer Science,book,Cybersecurity,2021,60,0,1804,15:00-17:00,PG-2nd Year,4
+RIMS-126,Commerce,book,Auditing,2004,0,0,1238,09:00-11:00,PG-1st Year,1
+RIMS-127,Commerce,book,Cost Accounting,2017,10,0,1336,15:00-17:00,PG-1st Year,3
+RIMS-128,Basic Sciences,journal,Environmental Chemistry,2024,0,43,63111,11:00-13:00,UG-2nd Year,4
+RIMS-129,Basic Sciences,e-resource,Applied Mathematics,2024,0,67,31414,09:00-11:00,UG-1st Year,4
+RIMS-130,Computer Science,journal,AI & Machine Learning,2019,0,8,32295,15:00-17:00,UG-1st Year,1
+RIMS-131,Computer Science,book,Cloud Computing,2017,24,0,2460,15:00-17:00,PG-1st Year,2
+RIMS-132,Humanities,book,Modern History,2022,55,0,2254,11:00-13:00,UG-2nd Year,4
+RIMS-133,Management,e-resource,Financial Management,2020,0,140,19476,13:00-15:00,PG-2nd Year,4
+RIMS-134,Basic Sciences,book,Statistics,2024,28,0,1071,13:00-15:00,PG-2nd Year,3
+RIMS-135,Humanities,book,Political Science,2016,11,0,935,11:00-13:00,UG-1st Year,3
+RIMS-136,Basic Sciences,journal,Statistics,2024,0,9,38790,09:00-11:00,UG-3rd Year,2
+RIMS-137,Computer Science,book,Web Development,2022,44,0,2860,09:00-11:00,UG-3rd Year,5
+RIMS-138,Computer Science,journal,Data Structures,2024,0,16,73986,11:00-13:00,PG-2nd Year,4
+RIMS-139,Computer Science,book,AI & Machine Learning,1998,0,0,1161,13:00-15:00,UG-2nd Year,2
+RIMS-140,Management,book,Marketing Strategy,2010,1,0,2374,13:00-15:00,UG-3rd Year,1
+RIMS-141,Commerce,book,Taxation Law,2005,1,0,2309,09:00-11:00,UG-1st Year,1
+RIMS-142,Computer Science,book,AI & Machine Learning,2024,37,0,2191,11:00-13:00,UG-2nd Year,3
+RIMS-143,Basic Sciences,book,Engineering Physics,2019,8,0,742,11:00-13:00,PG-1st Year,2
+RIMS-144,Computer Science,journal,Data Structures,2024,0,28,52780,13:00-15:00,PG-2nd Year,3
+RIMS-145,Management,e-resource,Operations,2020,0,121,29841,11:00-13:00,UG-2nd Year,3
+RIMS-146,Computer Science,e-resource,Web Development,2021,0,38,14612,11:00-13:00,UG-2nd Year,5
+RIMS-147,Computer Science,book,Legacy Programming (COBOL/Fortran),2004,0,0,1387,09:00-11:00,UG-1st Year,3
+RIMS-148,Management,book,Business Analytics,2015,28,0,1553,09:00-11:00,UG-3rd Year,3
+RIMS-149,Management,book,Marketing Strategy,2022,42,0,1193,13:00-15:00,UG-2nd Year,5
+RIMS-150,Commerce,book,Auditing,2022,30,0,2375,09:00-11:00,UG-1st Year,4
+RIMS-151,Management,book,Supply Chain,1999,2,0,1800,09:00-11:00,UG-1st Year,1
+RIMS-152,Management,book,HR & Org Behavior,2008,1,0,2703,09:00-11:00,UG-2nd Year,1
+RIMS-153,Computer Science,journal,Cloud Computing,2020,0,1,74629,09:00-11:00,PG-1st Year,2
+RIMS-154,Computer Science,book,Cybersecurity,2015,25,0,2672,13:00-15:00,PG-2nd Year,3
+RIMS-155,Management,book,Financial Management,2007,0,0,2491,13:00-15:00,PG-1st Year,2
+RIMS-156,Management,book,Financial Management,2013,8,0,1629,11:00-13:00,UG-2nd Year,1
+RIMS-157,Computer Science,book,Legacy Programming (COBOL/Fortran),2015,3,0,2943,11:00-13:00,PG-1st Year,3
+RIMS-158,Management,book,Operations,2013,4,0,2712,13:00-15:00,PG-2nd Year,1
+RIMS-159,Computer Science,book,AI & Machine Learning,2016,18,0,931,09:00-11:00,UG-2nd Year,3
+RIMS-160,Computer Science,book,AI & Machine Learning,2019,20,0,1569,09:00-11:00,UG-2nd Year,3
+RIMS-161,Management,book,HR & Org Behavior,2018,18,0,2707,09:00-11:00,UG-2nd Year,2
+RIMS-162,Management,e-resource,Marketing Strategy,2022,0,148,20946,11:00-13:00,UG-3rd Year,5
+RIMS-163,Commerce,book,Banking & Insurance,2021,46,0,2529,09:00-11:00,UG-3rd Year,4
+RIMS-164,Computer Science,journal,Cloud Computing,2019,0,41,80705,11:00-13:00,UG-1st Year,2
+RIMS-165,Management,book,Business Analytics,2020,60,0,2675,11:00-13:00,UG-3rd Year,3
+RIMS-166,Computer Science,e-resource,Data Structures,2024,0,66,27650,11:00-13:00,UG-1st Year,4
+RIMS-167,Management,book,Marketing Strategy,2021,27,0,1753,09:00-11:00,UG-1st Year,5
+RIMS-168,Management,book,Operations,2021,49,0,3168,09:00-11:00,PG-2nd Year,5
+RIMS-169,Management,book,Operations,2022,27,0,967,11:00-13:00,PG-2nd Year,4
+RIMS-170,Management,book,Business Analytics,1999,2,0,2253,15:00-17:00,PG-2nd Year,1
+RIMS-171,Humanities,book,Sociology,2000,0,0,3131,09:00-11:00,UG-3rd Year,3
+RIMS-172,Basic Sciences,book,Applied Mathematics,2019,14,0,3002,11:00-13:00,UG-2nd Year,3
+RIMS-173,Commerce,book,Corporate Accounting,2023,49,0,1747,11:00-13:00,UG-2nd Year,4
+RIMS-174,Computer Science,book,Web Development,2015,23,0,730,09:00-11:00,UG-3rd Year,2
+RIMS-175,Management,book,Operations,2018,27,0,820,09:00-11:00,UG-2nd Year,3
+RIMS-176,Computer Science,book,Cloud Computing,2016,18,0,1131,11:00-13:00,UG-1st Year,3
+RIMS-177,Management,e-resource,Financial Management,2018,0,101,15677,11:00-13:00,PG-1st Year,2
+RIMS-178,Management,journal,Supply Chain,2021,0,8,51004,13:00-15:00,UG-3rd Year,2
+RIMS-179,Computer Science,book,AI & Machine Learning,1998,0,0,2016,11:00-13:00,PG-2nd Year,2
+RIMS-180,Humanities,e-resource,Philosophy,2021,0,167,21379,09:00-11:00,PG-1st Year,4
+RIMS-181,Basic Sciences,book,Environmental Chemistry,2015,18,0,1628,09:00-11:00,PG-1st Year,3
+RIMS-182,Computer Science,journal,AI & Machine Learning,2016,0,5,62507,09:00-11:00,PG-1st Year,1
+RIMS-183,Management,book,HR & Org Behavior,2022,44,0,1265,09:00-11:00,PG-1st Year,5
+RIMS-184,Commerce,book,Auditing,2008,0,0,2804,11:00-13:00,PG-2nd Year,1
+RIMS-185,Computer Science,journal,Legacy Programming (COBOL/Fortran),2019,0,6,41988,11:00-13:00,UG-2nd Year,1
+RIMS-186,Computer Science,book,Legacy Programming (COBOL/Fortran),2015,2,0,2484,13:00-15:00,UG-3rd Year,4
+RIMS-187,Management,e-resource,Supply Chain,2024,0,76,35089,11:00-13:00,UG-3rd Year,4
+RIMS-188,Basic Sciences,journal,Engineering Physics,2024,0,2,65172,09:00-11:00,PG-2nd Year,1
+RIMS-189,Computer Science,book,Legacy Programming (COBOL/Fortran),2019,1,0,586,09:00-11:00,PG-1st Year,3
+RIMS-190,Computer Science,book,Legacy Programming (COBOL/Fortran),2005,0,0,2151,13:00-15:00,PG-1st Year,1
+RIMS-191,Management,book,Marketing Strategy,2020,58,0,2505,09:00-11:00,PG-1st Year,4
+RIMS-192,Management,book,Marketing Strategy,2011,3,0,1658,13:00-15:00,PG-2nd Year,2
+RIMS-193,Management,journal,Supply Chain,2016,0,1,33224,09:00-11:00,PG-1st Year,2
+RIMS-194,Management,book,Marketing Strategy,2021,60,0,1948,13:00-15:00,UG-1st Year,3
+RIMS-195,Management,journal,HR & Org Behavior,2015,0,1,53804,13:00-15:00,UG-3rd Year,1
+RIMS-196,Commerce,book,Banking & Insurance,2020,31,0,1407,09:00-11:00,UG-2nd Year,3
+RIMS-197,Management,e-resource,Business Analytics,2022,0,101,26507,11:00-13:00,UG-2nd Year,4
+RIMS-198,Computer Science,e-resource,Legacy Programming (COBOL/Fortran),2024,0,136,31804,09:00-11:00,UG-3rd Year,4
+RIMS-199,Computer Science,journal,Cloud Computing,2017,0,0,43946,09:00-11:00,PG-2nd Year,3
+RIMS-200,Basic Sciences,book,Applied Mathematics,2013,8,0,2041,11:00-13:00,PG-2nd Year,1
+RIMS-201,Commerce,book,Cost Accounting,2000,2,0,3132,11:00-13:00,UG-3rd Year,1
+RIMS-202,Computer Science,journal,Web Development,2024,0,4,26144,15:00-17:00,PG-2nd Year,2
+RIMS-203,Computer Science,book,AI & Machine Learning,2003,2,0,856,15:00-17:00,PG-1st Year,3
+RIMS-204,Management,e-resource,Supply Chain,2022,0,109,15968,13:00-15:00,UG-3rd Year,4
+RIMS-205,Computer Science,book,AI & Machine Learning,2022,30,0,3164,09:00-11:00,UG-2nd Year,4
+RIMS-206,Humanities,book,Political Science,2015,14,0,1447,11:00-13:00,UG-2nd Year,4
+RIMS-207,Computer Science,e-resource,Cybersecurity,2019,0,35,25576,11:00-13:00,UG-2nd Year,3
+RIMS-208,Commerce,book,Taxation Law,2000,1,0,2891,09:00-11:00,UG-2nd Year,1
+RIMS-209,Management,book,Marketing Strategy,2023,41,0,1164,11:00-13:00,UG-2nd Year,3
+RIMS-210,Basic Sciences,book,Applied Mathematics,2007,1,0,1424,11:00-13:00,UG-3rd Year,2
+RIMS-211,Management,journal,Financial Management,2017,0,2,72609,09:00-11:00,PG-2nd Year,2
+RIMS-212,Management,book,Financial Management,2022,53,0,1932,09:00-11:00,PG-2nd Year,4
+RIMS-213,Computer Science,book,Cloud Computing,2018,23,0,627,09:00-11:00,PG-1st Year,3
+RIMS-214,Management,e-resource,Operations,2022,0,95,42018,09:00-11:00,UG-1st Year,4
+RIMS-215,Management,book,Financial Management,2011,1,0,2196,11:00-13:00,UG-1st Year,2
+RIMS-216,Commerce,book,Auditing,2022,29,0,780,11:00-13:00,UG-2nd Year,4
+RIMS-217,Computer Science,book,AI & Machine Learning,2004,0,0,2847,09:00-11:00,UG-1st Year,1
+RIMS-218,Humanities,e-resource,English Literature,2021,0,170,46770,11:00-13:00,UG-2nd Year,4
+RIMS-219,Computer Science,book,Cybersecurity,2016,26,0,918,09:00-11:00,UG-1st Year,4
+RIMS-220,Commerce,journal,Cost Accounting,2018,0,3,51119,09:00-11:00,UG-1st Year,1
+RIMS-221,Management,journal,HR & Org Behavior,2021,0,1,44483,09:00-11:00,UG-1st Year,2
+RIMS-222,Commerce,book,Banking & Insurance,2000,1,0,2392,11:00-13:00,UG-1st Year,1
+RIMS-223,Management,book,Financial Management,1999,1,0,1976,13:00-15:00,PG-2nd Year,2
+RIMS-224,Humanities,book,Political Science,2013,21,0,1800,11:00-13:00,UG-1st Year,2
+RIMS-225,Management,e-resource,HR & Org Behavior,2020,0,126,15371,09:00-11:00,UG-1st Year,4
+RIMS-226,Management,book,Business Analytics,1999,0,0,1321,09:00-11:00,UG-3rd Year,1
+RIMS-227,Computer Science,e-resource,Web Development,2019,0,45,34945,13:00-15:00,UG-2nd Year,4
+RIMS-228,Management,book,Supply Chain,2004,0,0,2207,11:00-13:00,UG-2nd Year,2
+RIMS-229,Computer Science,book,Cybersecurity,2023,26,0,2944,11:00-13:00,UG-2nd Year,5
+RIMS-230,Management,e-resource,Operations,2020,0,25,23823,13:00-15:00,UG-1st Year,2
+RIMS-231,Humanities,book,English Literature,2020,25,0,1193,13:00-15:00,PG-1st Year,4
+RIMS-232,Computer Science,book,Cybersecurity,2016,8,0,3043,09:00-11:00,UG-3rd Year,4
+RIMS-233,Computer Science,book,Cloud Computing,2018,16,0,2169,09:00-11:00,PG-1st Year,3
+RIMS-234,Basic Sciences,book,Engineering Physics,2006,1,0,2774,09:00-11:00,UG-2nd Year,2
+RIMS-235,Management,e-resource,Financial Management,2019,0,58,15261,09:00-11:00,UG-3rd Year,3
+RIMS-236,Management,book,Supply Chain,2009,0,0,2260,11:00-13:00,PG-1st Year,1
+RIMS-237,Management,book,Marketing Strategy,2016,15,0,2210,09:00-11:00,PG-2nd Year,2
+RIMS-238,Humanities,book,Political Science,2019,5,0,1353,11:00-13:00,UG-3rd Year,3
+RIMS-239,Management,e-resource,Business Analytics,2018,0,19,25397,11:00-13:00,UG-2nd Year,3
+RIMS-240,Computer Science,book,AI & Machine Learning,2019,13,0,1793,09:00-11:00,PG-1st Year,2
+RIMS-241,Management,journal,HR & Org Behavior,2021,0,6,58903,09:00-11:00,UG-2nd Year,2
+RIMS-242,Management,book,Business Analytics,2020,29,0,2076,13:00-15:00,UG-2nd Year,4
+RIMS-243,Computer Science,book,Cloud Computing,2010,2,0,1732,11:00-13:00,PG-2nd Year,2
+RIMS-244,Commerce,book,Cost Accounting,2009,0,0,2109,09:00-11:00,UG-2nd Year,1
+RIMS-245,Computer Science,book,Data Structures,2010,1,0,1932,11:00-13:00,UG-3rd Year,1
+RIMS-246,Management,journal,Financial Management,2018,0,6,58338,09:00-11:00,UG-1st Year,1
+RIMS-247,Commerce,book,Banking & Insurance,2018,14,0,1138,11:00-13:00,UG-2nd Year,2
+RIMS-248,Management,journal,Operations,2016,0,3,83370,13:00-15:00,UG-3rd Year,2
+RIMS-249,Management,book,Supply Chain,2017,11,0,871,11:00-13:00,UG-1st Year,2
+RIMS-250,Basic Sciences,book,Engineering Physics,2000,1,0,3134,15:00-17:00,UG-2nd Year,1
+RIMS-251,Management,book,Operations,2024,62,0,2288,13:00-15:00,PG-1st Year,5
+RIMS-252,Humanities,journal,Political Science,2024,0,5,33893,11:00-13:00,PG-1st Year,2
+RIMS-253,Management,book,HR & Org Behavior,2005,1,0,2872,09:00-11:00,PG-2nd Year,1
+RIMS-254,Basic Sciences,book,Applied Mathematics,2010,0,0,1960,13:00-15:00,PG-2nd Year,2
+RIMS-255,Management,book,Financial Management,2016,23,0,2883,15:00-17:00,UG-1st Year,3
+RIMS-256,Commerce,book,Auditing,2015,18,0,2791,15:00-17:00,PG-2nd Year,3
+RIMS-257,Basic Sciences,book,Environmental Chemistry,2023,34,0,703,13:00-15:00,PG-1st Year,4
+RIMS-258,Management,journal,Supply Chain,2016,0,2,26565,09:00-11:00,UG-3rd Year,1
+RIMS-259,Management,book,HR & Org Behavior,2023,58,0,2947,09:00-11:00,UG-3rd Year,4
+RIMS-260,Management,journal,Supply Chain,2019,0,5,68492,09:00-11:00,UG-2nd Year,2
+RIMS-261,Computer Science,journal,Legacy Programming (COBOL/Fortran),2020,0,1,60566,09:00-11:00,UG-3rd Year,2
+RIMS-262,Humanities,journal,English Literature,2019,0,19,45847,09:00-11:00,UG-1st Year,2
+RIMS-263,Humanities,book,Philosophy,2019,24,0,3162,13:00-15:00,UG-3rd Year,3
+RIMS-264,Basic Sciences,journal,Applied Mathematics,2019,0,5,77292,15:00-17:00,UG-2nd Year,1
+RIMS-265,Commerce,book,Cost Accounting,2009,0,0,524,11:00-13:00,UG-3rd Year,1
+RIMS-266,Humanities,e-resource,Philosophy,2019,0,105,43868,13:00-15:00,UG-2nd Year,2
+RIMS-267,Computer Science,journal,AI & Machine Learning,2017,0,1,57271,09:00-11:00,UG-1st Year,2
+RIMS-268,Computer Science,book,Legacy Programming (COBOL/Fortran),2015,1,0,2981,09:00-11:00,UG-1st Year,2
+RIMS-269,Management,book,HR & Org Behavior,2001,1,0,3008,15:00-17:00,UG-2nd Year,2
+RIMS-270,Computer Science,journal,AI & Machine Learning,2022,0,5,68326,09:00-11:00,PG-2nd Year,2
+RIMS-271,Commerce,book,Auditing,2022,39,0,2637,11:00-13:00,PG-2nd Year,4
+RIMS-272,Basic Sciences,book,Statistics,2018,15,0,2786,11:00-13:00,UG-1st Year,4
+RIMS-273,Basic Sciences,book,Statistics,2021,57,0,2610,15:00-17:00,UG-3rd Year,4
+RIMS-274,Computer Science,book,AI & Machine Learning,2024,33,0,1474,09:00-11:00,UG-1st Year,3
+RIMS-275,Management,book,HR & Org Behavior,2023,31,0,2563,13:00-15:00,UG-2nd Year,5
+RIMS-276,Management,e-resource,Supply Chain,2018,0,59,29877,13:00-15:00,PG-2nd Year,3
+RIMS-277,Basic Sciences,book,Engineering Physics,2016,11,0,2297,11:00-13:00,PG-1st Year,4
+RIMS-278,Commerce,book,Corporate Accounting,2008,0,0,1415,13:00-15:00,UG-1st Year,1
+RIMS-279,Management,book,Financial Management,1996,0,0,855,11:00-13:00,UG-3rd Year,2
+RIMS-280,Management,e-resource,Operations,2020,0,55,21017,09:00-11:00,UG-1st Year,2
+RIMS-281,Humanities,e-resource,Sociology,2023,0,53,42743,13:00-15:00,PG-1st Year,4
+RIMS-282,Commerce,book,Corporate Accounting,2015,12,0,1333,09:00-11:00,UG-2nd Year,4
+RIMS-283,Computer Science,book,Cybersecurity,2024,58,0,2183,13:00-15:00,UG-2nd Year,3
+RIMS-284,Management,book,Supply Chain,1999,0,0,2169,11:00-13:00,UG-1st Year,2
+RIMS-285,Humanities,book,Political Science,2016,19,0,2894,11:00-13:00,UG-3rd Year,3
+RIMS-286,Humanities,book,Political Science,2017,13,0,2208,11:00-13:00,UG-3rd Year,2
+RIMS-287,Management,e-resource,Supply Chain,2019,0,164,39300,13:00-15:00,UG-3rd Year,2
+RIMS-288,Humanities,e-resource,Modern History,2022,0,110,16435,13:00-15:00,PG-1st Year,5
+RIMS-289,Commerce,journal,Cost Accounting,2023,0,42,60316,11:00-13:00,PG-1st Year,3
+RIMS-290,Management,e-resource,HR & Org Behavior,2018,0,180,37354,13:00-15:00,UG-1st Year,4
+RIMS-291,Humanities,book,English Literature,2020,29,0,1862,11:00-13:00,PG-1st Year,2
+RIMS-292,Management,journal,Operations,2016,0,31,32743,13:00-15:00,UG-3rd Year,2
+RIMS-293,Management,book,Business Analytics,2001,1,0,2353,11:00-13:00,PG-2nd Year,3
+RIMS-294,Computer Science,book,Web Development,2017,6,0,2324,11:00-13:00,UG-3rd Year,2
+RIMS-295,Commerce,book,Taxation Law,2002,2,0,1742,13:00-15:00,UG-3rd Year,3
+RIMS-296,Basic Sciences,book,Statistics,2023,55,0,1487,11:00-13:00,PG-2nd Year,3
+RIMS-297,Management,e-resource,Operations,2019,0,91,35394,11:00-13:00,UG-1st Year,4
+RIMS-298,Management,journal,Financial Management,2020,0,5,52636,09:00-11:00,UG-3rd Year,3
+RIMS-299,Management,journal,Operations,2022,0,34,46219,09:00-11:00,PG-2nd Year,5
+RIMS-300,Basic Sciences,e-resource,Statistics,2023,0,145,36074,13:00-15:00,UG-1st Year,5
